@@ -1,0 +1,244 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="pt-BR">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Tutorial P1</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"> -->
+    <script src="https://kit.fontawesome.com/ff126f26cf.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+    <style type="text/css">
+        @media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #1C2331 !important;
+            }
+        }
+
+        .toggle { display: none; }
+
+        .same-box-1 { display: none; }
+
+    </style>
+</head>
+<body id="tela" class="blue">
+<div class=" w-100 position-relative">
+
+    <div aria-live="polite" aria-atomic="true">
+        <!-- Position it -->
+        <div class="float-right">
+            <!-- Then put toasts within -->
+
+            <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-autohide="false">
+                <div class="toast-header">
+                    <img width="75px" src="img/logo_transparent.png" class="rounded mr-2" alt="...">
+                    <strong class="mr-auto">MaximumAgil</strong>
+                    <small class="text-muted">Agora</small>
+                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="toast-body text-white light-blue">
+                    Clique sobre a tela para avançar no conteudo
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container w-100 position-relative">
+    <div class="flex-center">
+        <p class="align-items-center m-3 font-italic text-center badge badge-secondary">Progresso de Aprendizado</p>
+    </div>
+    <div class="progress">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" id="progressbar">0%</div>
+    </div>
+
+    <h1 class="text-center m-2 text-white">Scrum</h1>
+
+    <div class="flex-center">
+        <button class="align-items-center btn btn-cyan" href="#Part1">Iniciar</button>
+    </div>
+
+
+
+    <div class="row">
+        <div id="Part1" class="col m-3 same-box-1 toggle text-center">
+            <span class="border  border-primary">
+                <img width="768" src="img/img_valores.jpg" alt="..." class="rounded">
+            </span>
+            <div class="alert alert-primary" role="alert">
+                O Scrum é uma metodologia de adaptação, iteratividade, rapidez,
+                flexibilidade e eficiência, projetada para fornecer um valor
+                significativo durante todo o projeto e tem alguns valores que a rodeiam
+                como mostra a imagem acima.
+            </div>
+            <button type="button" href="#Part2" class="btn btn-info">Proximo Item</button>
+        </div>
+        <div  class="w-100"></div>
+        <div id="Part2" class="col m-3 same-box-1 toggle text-center">
+
+            <span class="border  border-primary">
+                <img width="500" src="img/uso_scrum.jpg" alt="..." class="rounded">
+            </span>
+            <div class="alert alert-primary" role="alert">
+                O Scrum é amplamente usado, principalmente para desenvolver software, hardware, software, mas ele também pode ser usada
+                varios tipos de ramos de trabalho como:embarcado, redes de funções interativas, veículos autônomos, escolas,
+                governo, marketing, gerenciamento da operação de organizações e quase
+                tudo o que usamos em nossas vidas diárias, como indivíduos e sociedades..
+            </div>
+            <button type="button" href="#Part3" class="btn btn-info">Proximo Item</button>
+
+        </div>
+        <div  class="w-100"></div>
+        <div id="Part3" class="col m-3 same-box-1 toggle text-center">
+            <span class="border  border-primary">
+                <img width="500" src="img/scrum_pessoas.png" alt="..." class="rounded">
+            </span>
+            <div class="alert alert-primary" role="alert">
+                Assim como em qualquer trabalho, a uma das raizes da metodologia agil são as pessoas que temos os destaques para as
+                elas são determinadas principalmente pelo seu modo agir no ambiente de trabalho e dentro os papeis que nós temos
+                são eles :
+                <p>
+                    Scrum Master (responsável por alcançar o maior
+                    valor de negócio para o projeto)
+                </p>
+                <p>
+                    Dono do Produto (é um facilitador, que garante ao Time
+                    Scrum o fornecimento de um ambiente propício para
+                    concluir o projeto com sucesso)
+                </p>
+                <p>
+                    Time Scrum (é o grupo ou time responsável pelo
+                    desenvolvimento das entregas do projeto)
+                </p>
+            </div>
+            <button type="button" href="#Part4" class="btn btn-info">Proximo Item</button>
+        </div>
+        <div  class="w-100"></div>
+        <div id="Part4" class="col m-3 same-box-1 toggle text-center">
+            <span class="border  border-primary">
+                <img width="500" src="img/Sprint-Scrum.png" alt="..." class="rounded">
+            </span>
+            <div class="alert alert-primary" role="alert">
+                Como toda metodologia ela é sempre organizado ou orientada por algo, então no Scrum temos as Sprints
+                que são o coração dele, mas o que elas são?
+                <p>
+                    Ela é um período de tempo de um mês ou menos, no qual é criado um
+                    produto "Concluído", utilizável e potencialmente liberável.
+                </p>
+            </div>
+            <button type="button" class="btn btn-info">Proximo Item</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<footer style="bottom: 0; position: absolute" class="w-100 page-footer text-center font-small mt-4 wow fadeIn">
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+        © 2020 Copyright:
+        <a href="#"> Máximum Agil </a>
+    </div>
+    <!--/.Copyright-->
+
+</footer>
+<!--/.Footer-->
+
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<!-- Initializations -->
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.toast').toast('show');
+
+        carregarConteudo();
+    });
+
+    function getProgress() {
+        var d = document.getElementById("progressbar").getAttribute("aria-valuenow");
+        return d;
+    }
+
+    function setProgress(value) {
+        document.getElementById("progressbar").setAttribute("aria-valuenow", value);
+        document.getElementById("progressbar").setAttribute("style", "width: " + value + "%;");
+        document.getElementById("progressbar").innerHTML = (value + "%");
+    }
+
+    function increment() {
+        let i = getProgress();
+        i = parseInt(i,10);
+        console.log(i);
+        if (i < 100) {
+            i+=25;
+            console.log(i);
+            setProgress(i);
+            return;
+        }
+        alert("Primeira Parte Finalizada Parabens");
+    }
+
+    function decrement() {
+        let d = getProgress();
+        setProgress(d - 25);
+    }
+
+    function resetButton() {
+        let r = getProgress();
+        setProgress(r = 0);
+    }
+
+    function carregarConteudo() {
+        $("button").click(function () {
+            if ($(this).hasClass("same-box")) {
+                $(".toggle:visible").slideUp();
+                $($(this).attr("href")).slideDown();
+                return false;
+            }
+            var myelement = $(this).attr("href");
+            $(myelement).slideToggle('fast');
+            $(".toggle:visible").not(myelement).animate({
+                opacity : '0'
+            }).slideUp();
+
+            $(".toggle:visible").not(myelement).animate({
+                opacity : '1'
+            });
+
+            const href = $(this).attr("href").substring(5,6);
+
+            if (href === '1' ){
+                resetButton();
+                increment();
+                return 0
+            }
+            increment();
+        });
+    }
+
+
+</script>
+
+</body>
+</html>
